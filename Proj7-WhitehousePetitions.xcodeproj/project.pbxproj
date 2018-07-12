@@ -13,6 +13,7 @@
 		889A61BB20F7F31F00DC0A10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 889A61BA20F7F31F00DC0A10 /* Assets.xcassets */; };
 		889A61BE20F7F31F00DC0A10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 889A61BC20F7F31F00DC0A10 /* LaunchScreen.storyboard */; };
 		889A61C720F7F48800DC0A10 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889A61C620F7F48800DC0A10 /* Constants.swift */; };
+		889A61C920F7FAD600DC0A10 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889A61C820F7FAD500DC0A10 /* SwiftyJSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		889A61BD20F7F31F00DC0A10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		889A61BF20F7F31F00DC0A10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		889A61C620F7F48800DC0A10 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		889A61C820F7FAD500DC0A10 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				889A61C520F7F47400DC0A10 /* Services */,
 				889A61B320F7F31C00DC0A10 /* AppDelegate.swift */,
 				889A61B520F7F31C00DC0A10 /* ViewController.swift */,
+				889A61C820F7FAD500DC0A10 /* SwiftyJSON.swift */,
 				889A61B720F7F31C00DC0A10 /* Main.storyboard */,
 				889A61BA20F7F31F00DC0A10 /* Assets.xcassets */,
 				889A61BC20F7F31F00DC0A10 /* LaunchScreen.storyboard */,
@@ -149,6 +152,7 @@
 				889A61B620F7F31C00DC0A10 /* ViewController.swift in Sources */,
 				889A61B420F7F31C00DC0A10 /* AppDelegate.swift in Sources */,
 				889A61C720F7F48800DC0A10 /* Constants.swift in Sources */,
+				889A61C920F7FAD600DC0A10 /* SwiftyJSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
