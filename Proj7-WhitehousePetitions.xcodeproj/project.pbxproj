@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		885A96AC20F9067400200D34 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885A96AB20F9067400200D34 /* DetailVC.swift */; };
 		889A61B420F7F31C00DC0A10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889A61B320F7F31C00DC0A10 /* AppDelegate.swift */; };
 		889A61B620F7F31C00DC0A10 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889A61B520F7F31C00DC0A10 /* ViewController.swift */; };
 		889A61B920F7F31C00DC0A10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 889A61B720F7F31C00DC0A10 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		885A96AB20F9067400200D34 /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
 		889A61B020F7F31C00DC0A10 /* Proj7-WhitehousePetitions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Proj7-WhitehousePetitions.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		889A61B320F7F31C00DC0A10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		889A61B520F7F31C00DC0A10 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 				889A61C520F7F47400DC0A10 /* Services */,
 				889A61B320F7F31C00DC0A10 /* AppDelegate.swift */,
 				889A61B520F7F31C00DC0A10 /* ViewController.swift */,
+				885A96AB20F9067400200D34 /* DetailVC.swift */,
 				889A61C820F7FAD500DC0A10 /* SwiftyJSON.swift */,
 				889A61B720F7F31C00DC0A10 /* Main.storyboard */,
 				889A61BA20F7F31F00DC0A10 /* Assets.xcassets */,
@@ -149,6 +152,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				885A96AC20F9067400200D34 /* DetailVC.swift in Sources */,
 				889A61B620F7F31C00DC0A10 /* ViewController.swift in Sources */,
 				889A61B420F7F31C00DC0A10 /* AppDelegate.swift in Sources */,
 				889A61C720F7F48800DC0A10 /* Constants.swift in Sources */,
