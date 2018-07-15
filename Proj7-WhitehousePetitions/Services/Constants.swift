@@ -10,3 +10,5 @@ import Foundation
 
 // Cell Identifiers
 let TABLE_VIEW_CELL = "Cell"
+
+let NAVIGATION_CONTROLLER = "NavController"

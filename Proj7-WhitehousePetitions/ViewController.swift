@@ -16,7 +16,13 @@ class ViewController: UITableViewController {
         super.viewDidLoad()
         
         // Points to the Whitehouse.gov server, accessing petitions
-        let urlString = "https://api.whitehouse.gov/v1/petitions.json?limit=100"
+        let urlString: String
+        
+        if navigationController?.tabBarItem.tag == 0 {
+            urlString = "https://api.whitehouse.gov/v1/petitions.json?limit=100"
+        } else {
+            urlString = "https://api.whitehouse.gov/v1/petitions.json?signatureCountFloor=10000&limit=100"
+        }
         
         // Use if let to make sure URL is valid
         if let url = URL(string: urlString) {
@@ -27,10 +33,18 @@ class ViewController: UITableViewController {
                 
                 if json["metadata"]["responseInfo"]["status"].intValue == 200 {
                     parse(json: json)
+                    return
                 }
             }
         }
         
+        showError()
+    }
+    
+    func showError() {
+        let ac = UIAlertController(title: "Loading error", message: "There was a problem loading the feed; please check your connection and try again.", preferredStyle: .alert)
+        ac.addAction(UIAlertAction(title: "OK", style: .default))
+        present(ac, animated: true)
     }
     
     func parse(json: JSON) {
